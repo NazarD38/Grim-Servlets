@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+form {
+    margin-bottom: 20px;
+    background-color: gray; /* Установка белого цвета для формы */
+    display: inline-block; /* Установка формы как блока в строке */
+}
+
+input[type="text"],
+select {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    width: 200px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+table {
+    margin: 20px auto;
+    max-height: 300px;
+    overflow-y: auto;
+    background-color: white; /* Установка цвета фона для таблицы */
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    background-color: white; /* Установка цвета фона для ячеек таблицы */
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:hover {
+    background-color: #f2f2f2;
+}
+
+.table-container {
+    max-height: 400px;
+    overflow-y: auto;
+    width: 80%;
+    margin: 0 auto;
+}
+.table-container::-webkit-scrollbar {
+    display: none;
+}
+.table-container tr {
+    background-color:white;
+}
+
+.table-container tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table-container tr:hover {
+    background-color: #ddd;
+}
+
+
+label {
+    color: white;
+}
+
+
+#background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.back-button {
+    padding: 10px 20px;
+    margin: 20px auto;
+    border: none;
+    border-radius: 5px;
+    background: #FF5733;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+    display: block;
+    width: fit-content;
+    text-decoration: none;
+}
+
+.back-button:hover {
+    background: #E74C3C;
+}
